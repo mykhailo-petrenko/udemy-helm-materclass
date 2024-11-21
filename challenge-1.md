@@ -17,6 +17,7 @@ Check the outcome (is it works). Since it mac lets use `minikube service ...`
 `kubectl get svc`
 
 `minikube service web-server-service `
+
     |-----------|--------------------|-------------|------------------------------|
     | NAMESPACE |        NAME        | TARGET PORT |             URL              |
     |-----------|--------------------|-------------|------------------------------|
