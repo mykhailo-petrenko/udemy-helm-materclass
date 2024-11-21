@@ -1,0 +1,18 @@
+# Default values for mega-app-deployment.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+deployment:
+  name: web-server
+  replicaCount: 1
+  image:
+    name: nginx
+    pullPolicy: IfNotPresent
+    # Overrides the image tag whose default is the chart appVersion.
+    tag: "latest"
+
+service:
+  name: web-server-service
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 30303
