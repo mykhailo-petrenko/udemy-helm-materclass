@@ -6,6 +6,12 @@ Goal: learn how to "prepare" helm to create/update/use charts in a day to day ba
 
 - [Challenge 1](./challenge-1.md)
 
+## Troubleshooting tricks
+
+- `helm lint`
+- `helm template .`
+- `helm template . | kubectl create --dry-run -f -`
+
 ## Init 
 
 ### Start
