@@ -1,0 +1,18 @@
+# Default values for challenge-1.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+deployment:
+  name: web-server
+  replicaCount: 1
+  image:
+    name: httpd
+    tag: "2.4"
+    pullPolicy: IfNotPresent
+
+service:
+  name: web-server-service
+  type: NodePort
+  port: 80
+  targetPort: 80
+  nodePort: 31234
+

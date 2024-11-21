@@ -2,6 +2,10 @@
 
 Goal: learn how to "prepare" helm to create/update/use charts in a day to day basis like a breathe. 
 
+## Challenges
+
+- [Challenge 1](./challenge-1.md)
+
 ## Init 
 
 ### Start
