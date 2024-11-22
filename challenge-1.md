@@ -1,5 +1,27 @@
 # Challenge 1
 
+## Assignment
+
+1. Create a new chart called: challenge
+2. Remove all the files except the service and deployment
+3. labels is: app: apache
+4. Template the deployment name, image and version
+  - Deployment name: challenge
+  - Image: httpd
+  - Version: 2.4
+5. Template the service
+  - Name: challengesvc
+  - Type: NodePort
+  - NodePort: 31234
+6. Deploy the chart
+7. Check you can see the default apache page
+8. Tear it down
+
+## Workbook
+
+Notes:
+The service and container ports use port 80
+
 Start minikube.
 
 `minikube start --static-ip 192.168.200.200`

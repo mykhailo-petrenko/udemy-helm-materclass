@@ -1,0 +1,15 @@
+# Default values for myfirstchart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+
+deployment:
+  name: staginghelmdeployment
+  replicaCount: 1
+
+service:
+  name: staginghelmservice
+  type: ClusterIP
+
+proxy:
+  enable: false
