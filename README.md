@@ -8,6 +8,8 @@ Goal: learn how to "prepare" helm to create/update/use charts in a day to day ba
 - https://helm.sh/docs/chart_best_practices/conventions/
 - https://helm.sh/docs/chart_template_guide/control_structures/
 - https://helm.sh/docs/chart_template_guide/functions_and_pipelines/
+- https://github.com/helm/chartmuseum
+- https://stackoverflow.com/questions/48577211/fail-to-upload-chart-to-chartmuseum
 
 ## Challenges
 
